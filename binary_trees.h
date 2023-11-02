@@ -43,6 +43,7 @@ binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 size_t height(const binary_tree_t *tree);
 void binary_tree_print(const binary_tree_t *);
 int _pow_recursion(int x, int y);
+int btic_helper(const binary_tree_t *tree, size_t index, size_t size);
 size_t binary_tree_height(const binary_tree_t *tree);
 size_t binary_tree_depth(const binary_tree_t *tree);
 size_t binary_tree_size(const binary_tree_t *tree);
